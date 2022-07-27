@@ -59,27 +59,44 @@
                 <div class="modal">
                     <button type="button" class="modal-button" data-modal-close></button>
                     <form class="form .js-speaker-form" autocomplete="on">
-                        <label for="user-name">Ім'я</label>
-                        <input class="form-field" type="text" name="user-name" id="user-name" autofocus>
-                        <!-- placeholder="Tom Lee" -->
-
-                        <label for="user-tel">Телефон</label>
-                        <input class="form-field" type="tel" name="user-tel" id="user-tel"
-                            placeholder="+380()xxx-xx-xx">
-
-                        <label for="user-mail">Пошта</label>
-                        <input class="form-field" type="email" name="user-mail" id="user-mail" autocomplete="off">
-                        <label for="comments">Коментарі</label>
-                        <textarea class="textarea" name="comments" id="comments" rows="10"
-                            placeholder="Введіть коментар"></textarea>
-
-                        <label class="field-label " for="">
-                            <input type="checkbox" name="checkbox" value="checkbox">
-                            Погоджуюсь з розсилкою і приймаю
-                            <a href="./"> Умови договору</a>
-                        </label>
+                        <h3 class="titel">Залиште свої дані, ми Вам зателефонуємо </h3>
+                        <ul class="fields">
+                            <li class="field">
+                                <label for="user-name">Ім'я</label>
+                                <input class="form-field" type="text" name="user-name" id="user-name" autofocus>
+                                <svg class="form-icon" width="18px" height="18px">
+                                    <use href="./img/svg/person.svg"></use>
+                                </svg>
+                                <!-- placeholder="Tom Lee" -->
+                            </li>
+                            <li class="field"><label for="user-tel">Телефон</label>
+                                <input class="form-field" type="tel" name="user-tel" id="user-tel"
+                                    placeholder="+380()xxx-xx-xx">
+                                <svg class="form-icon" width="18px" height="18px">
+                                    <use href="./img/svg/phone.svg"></use>
+                                </svg>
+                            </li>
+                            <li class="field"><label for="user-mail">Пошта</label>
+                                <input class="form-field" type="email" name="user-mail" id="user-mail"
+                                    autocomplete="off">
+                                <svg class="form-icon" width="18px" height="18px">
+                                    <use href="./img/svg/mail.svg"></use>
+                                </svg>
+                            </li>
+                            <li class="field"><label for="comments">Коментарі</label>
+                                <textarea class="textarea" name="comments" id="comments" rows="10"
+                                    placeholder="Введіть коментар"></textarea>
+                            </li>
+                        </ul>
+                        <div class="checkbox">
+                            <label class="field-label " for="">
+                                <input type="checkbox" name="checkbox" value="checkbox">
+                                Погоджуюсь з розсилкою і приймаю
+                                <a href="./"> Умови договору</a>
+                            </label>
+                        </div>
                         <!-- Відправка форми -->
-                        <button type="submit">Надіслати</button>
+                        <button class="hero-button btn" type="submit">Надіслати</button>
 
 
                     </form>
